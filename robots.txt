@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://funnell.github.io/sitemap.xml 
