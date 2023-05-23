@@ -1,0 +1,60 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+import { Icon } from 'astro-icon'
+---
+
+<Layout title="Tyler Funnell">
+	<main>
+        <div class="grid grid-cols-1">
+            <div class="m-20">
+                <h1 class="font-serif text-4xl pb-6">Tyler Funnell</h1>
+
+                <div class="flex justify-start">
+                    <a href="https://github.com/funnell"><Icon name="mdi:github" /></a>
+                    <a href="https://www.linkedin.com/in/tyler-funnell/"><Icon name="mdi:linkedin" /></a>
+                </div>
+
+                <br />
+                <br />
+                <p>I work as a Computational Biologist studying gut microbiomes and mutational patterns.</p>
+                <br />
+
+                <h2 class="font-serif text-2xl pt-8 pb-5">Selected Papers</h2>
+                <p>
+                    <a class="text-indigo-600" href="https://doi.org/10.1038/s41586-022-05249-0">
+                        Single-cell genomic variation induced by mutational processes in cancer
+                    </a>
+                    <br />
+                    Funnell, T., O’Flanagan, C.H., Williams, M.J. <i>et al.</i> <b>Nature</b> (2022)
+                </p>
+                <br />
+                <p>
+                    <a class="text-indigo-600" href="https://doi.org/10.1371/journal.pcbi.1006799">
+                        Integrated structural variation and point mutation signatures in cancer genomes using correlated topic models
+                    </a>
+                    <br />
+                    Funnell, T., <i>et al.</i> <b>PLOS Computational Biology</b> (2019)
+                </p>
+                <br />
+                <p>
+                    <a class="text-indigo-600" href="https://doi.org/10.1038/s41467-016-0008-7">
+                        CLK-dependent exon recognition and conjoined gene formation revealed with a novel small molecule inhibitor
+                    </a>
+                    <br />
+                    Funnell, T., <i>et al.</i> <b>Nature Communications</b> (2017)
+                </p>
+                <br />
+                <br />
+                Full list on <a class="text-indigo-600" href="https://scholar.google.com/citations?view_op=list_works&sortby=pubdate">Google Scholar</a>.
+            </div>
+        </div>
+	</main>
+</Layout>
+
+<style>
+    [astro-icon] {
+        color: #252525;
+        height: 35px;
+    }
+</style>
